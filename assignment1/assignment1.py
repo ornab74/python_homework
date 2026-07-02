@@ -89,12 +89,11 @@ class DecimalTools:
 
 
 def hello() -> str:
-    return "Hello"
+    return "Hello!"
 
 
-def hello_name(name: str) -> str:
-    return f"Hello {name}"
-
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
 
 class Calculator:
     def __init__(self):
@@ -582,10 +581,9 @@ class PigLatinEngine:
 def pig_latin(text):
     return PigLatinEngine.translate(text)
 
-
 def run_greeting_examples():
     print(hello())
-    print(hello_name("Graylan"))
+    print(greet("Graylan"))
 
 
 def run_calculator_examples():

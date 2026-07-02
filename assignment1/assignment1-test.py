@@ -3,11 +3,11 @@ from decimal import Decimal
 
 
 def test_hello():
-    assert a1.hello() == "Hello"
+    assert a1.hello() == "Hello!"
 
 
-def test_hello_name():
-    assert a1.hello_name("James") == "Hello James"
+def test_greet():
+    assert a1.greet("James") == "Hello, James!"
 
 
 def test_calc():
