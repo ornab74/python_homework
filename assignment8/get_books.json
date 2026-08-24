@@ -10,93 +10,333 @@
     "Format-Year": "eBook, 2026"
   },
   {
-    "Title": "Real-World Spanish: The Conversation Learning System",
-    "Author": "Camila Vega Rivera",
-    "Format-Year": "eAudiobook, 2025"
-  },
-  {
     "Title": "Learning Spanish-beginner I",
     "Author": "Iris Acevedo A.; Spanishonline, Costarica",
     "Format-Year": "eBook, 2025 — Spanish"
   },
   {
-    "Title": "100 Facts About Learning Spanish",
-    "Author": "Science-Based Language Learning Lab",
-    "Format-Year": "eAudiobook, 2024"
-  },
-  {
-    "Title": "A Beginner's Guide to Learning Spanish",
-    "Author": "Miller, Jackson",
-    "Format-Year": "eAudiobook, 2024"
-  },
-  {
-    "Title": "The Ultimate Learning Spanish Blueprint - 10 Essential Steps",
-    "Author": "Ramirez, Andres",
-    "Format-Year": "eAudiobook, 2024"
-  },
-  {
-    "Title": "No Tears Spanish Grammar: Easy Learning: Essential Rules for Beginners",
-    "Author": "Bennett, Olivia",
-    "Format-Year": "eBook, 2024"
+    "Title": "Real-World Spanish: The Conversation Learning System",
+    "Author": "Camila Vega Rivera",
+    "Format-Year": "eAudiobook, 2025"
   },
   {
     "Title": "100 Facts About Learning Spanish",
     "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eAudiobook, 2024"
+  },
+  {
+    "Title": "Spanish for Beginners",
+    "Author": "Institute of Spanish Learning",
+    "Format-Year": "eAudiobook, 2021 — Spanish"
+  },
+  {
+    "Title": "Spanish for Beginners",
+    "Author": "Institute of Spanish Learning",
+    "Format-Year": "eAudiobook, 2021"
+  },
+  {
+    "Title": "Expressing Emotion with the Subjunctive",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2017"
+  },
+  {
+    "Title": "Expressing Doubt with the Subjunctive",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2017"
+  },
+  {
+    "Title": "Advanced Work with Commands",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2017"
+  },
+  {
+    "Title": "Expressing Influence with the Subjunctive",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2017"
+  },
+  {
+    "Title": "Indirect Objects and Verbs like Gustar",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2017"
+  },
+  {
+    "Title": "When to Use the Imperfect and the Preterite",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2017"
+  },
+  {
+    "Title": "Superlatives and Equal Comparisons",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "Irregular Verbs in the Preterite",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "Double Object Pronouns",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "The Verb Ir in the Present",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "The Verb Estar and Numbers over 100",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "Formal Commands and Unequal Comparisons",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "More Affirmative and Negative Expressions",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "Expressing Time in Spanish",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "Introduction to the Spanish Language",
+    "Author": "",
+    "Format-Year": "Streaming Video, 2015"
+  },
+  {
+    "Title": "5-Minute Mystery Stories in Spanish for Beginners",
+    "Author": "Armstrong, Simon",
+    "Format-Year": "eAudiobook, 2026"
+  },
+  {
+    "Title": "Pocoyo",
+    "Author": "",
+    "Format-Year": "DVD, 2013"
+  },
+  {
+    "Title": "Primer Año De Cálculo",
+    "Author": "Falbo, Clement E.",
+    "Format-Year": "eBook, 2025 — Spanish"
+  },
+  {
+    "Title": "IA PARA PRINCIPIANTES: Aprendizaje Profundo (Deep Learning)",
+    "Author": "Pmdigital",
+    "Format-Year": "eBook, 2025 — Spanish"
+  },
+  {
+    "Title": "Aprendiendo a quererte (Learning to Love You)",
+    "Author": "Westwood, Jana",
+    "Format-Year": "eAudiobook, 2024 — Spanish"
+  },
+  {
+    "Title": "Machine Learning aplicado al rendimiento académico en educación superior: factores, variables y herr",
+    "Author": "Leonardo Emiro Contreras; Giovanny Mauricio Tarazona Bermúdez; Angie Paola Alemán Cardona",
+    "Format-Year": "eBook, 2023 — Spanish"
+  },
+  {
+    "Title": "Borat",
+    "Author": "",
+    "Format-Year": "DVD, 2007"
+  },
+  {
+    "Title": "Aprendiendo con Llama Llama",
+    "Author": "",
+    "Format-Year": "Book, 2022 — Spanish"
+  },
+  {
+    "Title": "Adiós a la inflamación",
+    "Author": "Moñino, Sandra",
+    "Format-Year": "Book, 2025 — Spanish"
+  },
+  {
+    "Title": "La vida secreta de los océanos",
+    "Author": "French, Jess",
+    "Format-Year": "Book, 2021 — Spanish"
+  },
+  {
+    "Title": "Easy Spanish Step-by-step",
+    "Author": "Bregstein, Barbara",
+    "Format-Year": "Book, 2006"
+  },
+  {
+    "Title": "100 Examples of Por and Para",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2025"
+  },
+  {
+    "Title": "100 Examples of Small Talk Conversations",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2025"
+  },
+  {
+    "Title": "100 Facts About the Function of the Human Body",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2025"
+  },
+  {
+    "Title": "100 Examples Ser and Estar in Both Preterite and Imperfect",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2025"
+  },
+  {
+    "Title": "100 Examples of Reflexive Verbs",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2025"
+  },
+  {
+    "Title": "100 Facts About Basic First Aid",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eAudiobook, 2024"
+  },
+  {
+    "Title": "100 Facts About Fitness",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eAudiobook, 2024"
+  },
+  {
+    "Title": "100 Facts About Mental Health",
+    "Author": "Science-Based Language Learning Lab",
     "Format-Year": "eBook, 2024"
   },
   {
-    "Title": "Learning Spanish for Adults Beginner",
-    "Author": "World, Spain",
+    "Title": "100 Facts About Nutrition",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "100 Facts About Burning Fat While You Sleep",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "100 Facts About Positive Psychology",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "100 Facts About Artificial Intelligence",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eAudiobook, 2024"
+  },
+  {
+    "Title": "100 Facts About Cognitive Biases",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "100 Facts About Critical Thinking",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "100 Facts About Anti Inflammatory Diet",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "Learn Spanish Bundle - Spanish for Beginners (Level 2)",
+    "Author": "Innovative Language Learning, LLC; SpanishPod101.com",
+    "Format-Year": "eAudiobook, 2024"
+  },
+  {
+    "Title": "Puerto Rico",
+    "Author": "Meléndez Badillo, Jorell A.",
+    "Format-Year": "Book, 2024 — Spanish"
+  },
+  {
+    "Title": "1000 Common Past Tense Verbs",
+    "Author": "Science-Based Language Learning Lab",
+    "Format-Year": "eBook, 2024"
+  },
+  {
+    "Title": "Everyday Spanish for Beginners - 400 Actions & Activities",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2024"
+  },
+  {
+    "Title": "Fun Spanish Short Stories: 5 Interesting Beginner Tales to Jumpstart Your Spanish & Improve Your Voc",
+    "Author": "Touri Language Learning",
     "Format-Year": "eBook, 2023"
   },
   {
-    "Title": "Learning to Read in English and Spanish Made Easy",
-    "Author": "Navarijo, Susie G.",
-    "Format-Year": "eBook, 2022"
+    "Title": "Learn Spanish - Level 4: Beginner Spanish, Volume 1",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2020"
   },
   {
-    "Title": "Spanish for Beginners: A Comprehensive Guide for Learning the Spanish Language Fast",
-    "Author": "Language Equipped Travelers",
-    "Format-Year": "eBook, 2021"
+    "Title": "Learn Spanish: Level 3: Lower Beginner Spanish, Volume 2",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2020"
   },
   {
-    "Title": "Spanish: Beginner's Step by Step Course to Quickly Learning the Spanish Language, Spanish Grammar &",
-    "Author": "Michaels, Steven J.",
-    "Format-Year": "eBook, 2021"
+    "Title": "Learn Spanish: Level 3: Lower Beginner Spanish, Volume 1",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2020"
   },
   {
-    "Title": "Learn Spanish Like a Native for Beginners - Level 1: Learning Spanish in Your Car Has Never Been Eas",
-    "Author": "Learn Like a Native",
-    "Format-Year": "eBook, 2021"
+    "Title": "Learn Spanish - Level 6: Lower Intermediate Spanish, Volume 2",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2020"
   },
   {
-    "Title": "Learn Spanish Like a Native for Beginners - Level 2: Learning Spanish in Your Car Has Never Been Eas",
-    "Author": "Learn Like a Native",
-    "Format-Year": "eBook, 2021"
+    "Title": "Learn Spanish - Level 2: Absolute Beginner Spanish, Volume 3",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2020"
   },
   {
-    "Title": "I am learning Spanish",
-    "Author": "Gardner, James M.",
+    "Title": "Learn Spanish Grammar: 25 Sentence Patterns for Beginners",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2019"
+  },
+  {
+    "Title": "Learn Spanish: Must-Know Mexican Spanish Slang Words & Phrases",
+    "Author": "Innovative Language Learning, LLC",
     "Format-Year": "eAudiobook, 2018"
   },
   {
-    "Title": "The Best Spanish Learning Games for Children",
-    "Author": "Professor, Baby",
-    "Format-Year": "eBook, 2017"
+    "Title": "Learn Spanish: Must-Know Spanish Slang Words & Phrases",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2018"
   },
   {
-    "Title": "Easy Learning Spanish Vocabulary",
-    "Author": "Dictionaries, Collins",
-    "Format-Year": "eBook, 2016 — Spanish"
+    "Title": "Learn Spanish: The Ultimate Guide to Talking Online in Mexican Spanish",
+    "Author": "Innovative Language Learning, LLC",
+    "Format-Year": "eAudiobook, 2018"
   },
   {
-    "Title": "Spanish Easy Learning Complete Course",
-    "Author": "Carmen García del Río; Fitzsimons, Ronan",
-    "Format-Year": "eAudiobook, 2016"
+    "Title": "Inglés práctico",
+    "Author": "",
+    "Format-Year": "Book, 2017 — Spanish"
   },
   {
-    "Title": "Learning the Local Language: Your Guide to Real World Spanish",
-    "Author": "Romey, Jared",
-    "Format-Year": "eBook, 2013"
+    "Title": "Libro De Matemáticas De Preparación Para Exámenes Para Estudiantes Adultos, Libro 4",
+    "Author": "Coaching for Better Learning",
+    "Format-Year": "eBook, 2025 — Spanish"
+  },
+  {
+    "Title": "Libro De Matemáticas De Preparación Para Exámenes Para Estudiantes Adultos, Libro 3",
+    "Author": "Coaching for Better Learning",
+    "Format-Year": "eBook, 2025 — Spanish"
+  },
+  {
+    "Title": "Libro De Matemáticas De Preparación Para Exámenes Para Estudiantes Adultos, Libro 2",
+    "Author": "Coaching for Better Learning",
+    "Format-Year": "eBook, 2025 — Spanish"
+  },
+  {
+    "Title": "Ged Guía De Estudios De Matematicas",
+    "Author": "Coaching for Better Learning",
+    "Format-Year": "eBook, 2024 — Spanish"
+  },
+  {
+    "Title": "Aprende Inglés en tu Coche",
+    "Author": "Pro Language Learning",
+    "Format-Year": "eAudiobook, 2020 — Spanish"
   }
 ]
