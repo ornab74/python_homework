@@ -11,7 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-
 # Task 3: URL for the Durham County Library search
 SEARCH_URL = (
     "https://durhamcounty.bibliocommons.com/v2/search"
@@ -32,11 +31,9 @@ AUTHOR_CONTAINER_SELECTOR = "span.cp-author-link"
 FORMAT_YEAR_CONTAINER_SELECTOR = "div.cp-format-info"
 FORMAT_YEAR_SELECTOR = "span.display-info-primary"
 
-
 def create_driver():
     # Task 3: Create Selenium driver
     options = webdriver.ChromeOptions()
-
     options.add_argument("--headless=new")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
@@ -48,11 +45,9 @@ def create_driver():
         options=options,
     )
 
-
 def normalize_text(value):
     """Collapse whitespace from text read by Selenium."""
     return " ".join((value or "").split())
-
 
 def first_text(parent, selectors):
     """Return the first non-empty text found by the supplied selectors."""
@@ -105,7 +100,6 @@ def extract_authors(item):
     # Missing author markup produces an empty value instead of an exception.
     return "; ".join(authors)
 
-
 def extract_book(item):
     """Extract one book dictionary from one search-result <li>."""
     title = first_text(
@@ -137,7 +131,6 @@ def extract_book(item):
         "Author": author_text,
         "Format-Year": format_year,
     }
-
 
 def main():
     driver = create_driver()
@@ -197,7 +190,6 @@ def main():
 
     finally:
         driver.quit()
-
 
 if __name__ == "__main__":
     main()
