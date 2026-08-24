@@ -1,13 +1,15 @@
-# Task 5 Ethical Web Scraping
+# Task 5 Ethical Web Scraping Awnsers 
 
 1.Which sections of Wikipedia are restricted for crawling?
 
-Wikipedia's robots.txt restricts crawlers from several areas of the site. General crawlers are blocked from paths such as `/w/`, `/api/`, `/trap/`, and pages under `/wiki/Special:`. There are also additional restrictions for specific Wikipedia administrative and discussion pages. Including some deletion discussions copyright problem pages and spam-related pages.
+Answers 1: Wikipedia's robots.txt restricts crawlers from several areas of the site. General crawlers are blocked from paths such as `/w/`, `/api/`, `/trap/`, and pages under `/wiki/Special:`. There are also additional restrictions for specific Wikipedia administrative and discussion pages. Including some deletion discussions copyright problem pages and spam-related pages. Another area that is restricted is wiki/Wikipedia:Administrator_elections. It's obviously used for some kind of Wikipedia administrator actions. 
 
 2.Are there specific rules for certain user agents?
 
-Yes. Wikipedia has specific rules for certain user agents. Some bots, including MJ12bot, UbiCrawler, WebCopier, HTTrack, wget, and several others, are completely blocked with `Disallow: /`. Other bots have different rules... for example, SemrushBot is given a crawl delay. Wikipedia also listed some trusted work bots that are not blocked.
+Answers 2: Yes. Wikipedia has specific rules for certain user agents. Some bots, including MJ12bot, UbiCrawler, WebCopier, HTTrack, wget, and several others, are completely blocked with `Disallow: /`. Other bots have different rules... for example, SemrushBot is given a crawl delay. Wikipedia also listed some trusted work bots that are not blocked. And the webmaster also mentions that wget is a frequent problem as users forget to configure it probably with the --wait option. Showing how important it is to have some form of timing / delay in between requests / retries and how important back off is when scraping or pull information over different websites. 
+_______________________________________
 
-3.Reflection
+_______________________________________
+## Section For Reflection
 
-Websites use robots.txt to tell automated crawlers which parts of the site should or should not be accessed. Following these rules helps prevent unnecessary server load and respects the website owner's crawling policies. Ethical scraping means checking these rules before collecting data and avoiding restricted areas or overly aggressive request rates.
+Websites use robots.txt to tell automated crawlers which parts of the site should or should not be accessed. Following these rules helps prevent unnecessary server load and respects the website owner's crawling policies. Ethical scraping means checking these rules before collecting data and avoiding restricted areas or overly aggressive request rates. A few reasons why I think it's important to respect robots.txt. Sever Load. Some servers are not designed with the capacity for scraping systems and it may over load their capacity, CPU and or bandwidth. Scraping Sensitive Areas. Some webadmins do not want areas like admin panels, login pages , and other site features to be scraped for many various reasons including security. And most importantly following the policy of a website for scraping usage helps build a community of respect and trust . 
