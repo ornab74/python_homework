@@ -162,8 +162,12 @@ def main():
 
         print(f"Found {len(search_results)} search results")
 
-        # Task 3: Required results list, one dict per result li.
-        results = [extract_book(item) for item in search_results]
+        # Task 3: Required empty list, then append one dict per result li.
+        results = []
+
+        for item in search_results:
+            book = extract_book(item)
+            results.append(book)
 
         # Task 3: Create and print DataFrame
         df = pd.DataFrame(results)
