@@ -11,7 +11,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 # Task 6: OWASP Top 10 page
-OWASP_URL = "https://owasp.org/www-project-top-ten/"
+OWASP_URL = "https://owasp.org/Top10/2025/0x00_2025-Introduction/"
 
 OUTPUT = Path(__file__).resolve().parent / "owasp_top_10.csv"
 
@@ -26,19 +26,17 @@ def create_driver():
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
 
-    driver = webdriver.Chrome(
+    return webdriver.Chrome(
         service=ChromeService(ChromeDriverManager().install()),
         options=options,
     )
-
-    return driver
 
 
 def main():
     driver = create_driver()
 
     try:
-        # Task 6: Load OWASP page
+        # Task 6: Load the OWASP Top 10 page
         driver.get(OWASP_URL)
 
         WebDriverWait(driver, 20).until(
@@ -50,52 +48,46 @@ def main():
         time.sleep(2)
 
         # Task 6:
-        # Use XPath to directly find links for the 2025 Top 10 risks.
-        risk_elements = driver.find_elements(
+        # Find links on the page whose visible text begins
+        # with an OWASP Top 10 ranking such as A01, A02, etc.
+        vulnerability_elements = driver.find_elements(
             By.XPATH,
             "//a["
-            "contains(@href, '/Top10/2025/A01_') or "
-            "contains(@href, '/Top10/2025/A02_') or "
-            "contains(@href, '/Top10/2025/A03_') or "
-            "contains(@href, '/Top10/2025/A04_') or "
-            "contains(@href, '/Top10/2025/A05_') or "
-            "contains(@href, '/Top10/2025/A06_') or "
-            "contains(@href, '/Top10/2025/A07_') or "
-            "contains(@href, '/Top10/2025/A08_') or "
-            "contains(@href, '/Top10/2025/A09_') or "
-            "contains(@href, '/Top10/2025/A10_')"
+            "starts-with(normalize-space(.), 'A01:') or "
+            "starts-with(normalize-space(.), 'A02:') or "
+            "starts-with(normalize-space(.), 'A03:') or "
+            "starts-with(normalize-space(.), 'A04:') or "
+            "starts-with(normalize-space(.), 'A05:') or "
+            "starts-with(normalize-space(.), 'A06:') or "
+            "starts-with(normalize-space(.), 'A07:') or "
+            "starts-with(normalize-space(.), 'A08:') or "
+            "starts-with(normalize-space(.), 'A09:') or "
+            "starts-with(normalize-space(.), 'A10:')"
             "]"
         )
 
-        # Task 6: Store vulnerability dictionaries
-        risks = []
-        seen = set()
+        # Task 6: Keep each vulnerability in a dict
+        results = []
 
-        for element in risk_elements:
+        for element in vulnerability_elements:
             title = " ".join(element.text.split())
             href = element.get_attribute("href")
 
-            # Prevent duplicate links
-            if not title or not href or href in seen:
-                continue
+            if title and href:
+                vulnerability = {
+                    "Title": title,
+                    "href": href,
+                }
 
-            seen.add(href)
+                results.append(vulnerability)
 
-            risk = {
-                "title": title,
-                "href": href,
-            }
-
-            risks.append(risk)
-
-            # We only need the Top 10
-            if len(risks) == 10:
+            if len(results) == 10:
                 break
 
-        # Task 6: Print list
-        print(risks)
+        # Task 6: Print the list
+        print(results)
 
-        # Task 6: Write results to CSV
+        # Task 6: Write the list to CSV
         with open(
             OUTPUT,
             "w",
@@ -105,11 +97,11 @@ def main():
 
             writer = csv.DictWriter(
                 csv_file,
-                fieldnames=["title", "href"],
+                fieldnames=["Title", "href"],
             )
 
             writer.writeheader()
-            writer.writerows(risks)
+            writer.writerows(results)
 
         print(f"Wrote {OUTPUT}")
 
@@ -119,4 +111,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
