@@ -1,0 +1,4 @@
+# Task 5: Ethical Web Scraping
+
+Before scraping Wikipedia or any website check the robots.txt file. This helps make sure that the scraper follows the site’s current rules.
+Some parts of Wikipedia limit or block automated access. As these rules can change it is critical to check them before scraping to avoid restricted pages. Some websites do not allow scraping at all. So it's important to verify the terms by checking robots.txt and the site’s terms of service and polices before scraping.
