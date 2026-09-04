@@ -1,0 +1,7 @@
+# Challenges
+
+I faced a couple of minor challenges while running my Selenium project. Selenium did not run properly with my internet. (some kind of Automatic Filtering blocked it)
+
+So instead of running the scraper locally I created a Cloud based virtual machine. I then ran the scraper via the cloud inside a Docker container and a 4GB RAM VPS.
+
+Then I used SFTP to back up the scraping results to my local machine. To reduce errors this scraper tries different selectors and skips missing content. It only saves results that have a title.
